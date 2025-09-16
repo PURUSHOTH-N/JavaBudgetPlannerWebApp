@@ -7,7 +7,7 @@
     
     <display-name>My Java Web Application</display-name>
     
-
+    <!-- Servlet Configuration -->
     <servlet>
         <servlet-name>HelloServlet</servlet-name>
         <servlet-class>com.example.webapp.servlet.HelloServlet</servlet-class>
@@ -18,15 +18,14 @@
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
     
-    
+    <!-- Welcome File List -->
     <welcome-file-list>
         <welcome-file>index.jsp</welcome-file>
         <welcome-file>index.html</welcome-file>
     </welcome-file-list>
     
-    
+    <!-- Session Configuration -->
     <session-config>
         <session-timeout>30</session-timeout>
- 
     </session-config>
  </web-app>
