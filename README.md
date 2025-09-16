@@ -1,1 +1,1 @@
-# JavaBudgetPlannerWebApp
+# SimpleJavaWebApp
