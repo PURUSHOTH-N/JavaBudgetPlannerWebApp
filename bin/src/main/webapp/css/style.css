@@ -23,7 +23,6 @@
     overflow: hidden;
     backdrop-filter: blur(10px);
  }
- Step 13 Create CSS Stylesheet
 /* Header */
  .header {
     background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
